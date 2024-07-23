@@ -1,0 +1,975 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction/"
+     xml:base="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction">
+        <rdfs:comment>A Myocardial Infract Domain</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ST_changes_in_Anterior -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ST_changes_in_Anterior">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Anterior_STEMI"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#V3"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#V4"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ST_changes_in_Inferior -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ST_changes_in_Inferior">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Inferior_STEMI"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#aVF"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#2"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#3"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ST_changes_in_Septal -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ST_changes_in_Septal">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Septal_STEMI"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#V1"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#V2"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ST_changes_in_lateral -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ST_changes_in_lateral">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Lateral_STEMI"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#V5"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#V6"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#1"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#2.1"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#condition_of_artery -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#condition_of_artery">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#MI"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_ST_depression -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_ST_depression">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#NSTEMI"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Unstable-Angina"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Depressed"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_ST_elevation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_ST_elevation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Anterior_STEMI"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Inferior_STEMI"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Lateral_STEMI"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#STEMI"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Septal_STEMI"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Elevated"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_biphasic_T_wave -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_biphasic_T_wave">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Acute_MI"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Unstable-Angina"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Biphasic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_effect_on_V3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_effect_on_V3">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Leads"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#V3"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_effect_on_V4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_effect_on_V4"/>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_inverted_T_wave -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_inverted_T_wave">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Anterior_STEMI"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Inferior_STEMI"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Lateral_STEMI"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#NSTEMI"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Post_MI_damage"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#STEMI"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Septal_STEMI"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Inverted"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_normal_ST -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_normal_ST">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Post_MI_damage"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Normal"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_raised_Level -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_raised_Level">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Acute_MI"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Anterior_STEMI"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Inferior_STEMI"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Lateral_STEMI"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#NSTEMI"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#STEMI"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Septal_STEMI"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Unstable-Angina"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Raised"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_symptoms_severe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_symptoms_severe">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Acute_MI"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Anterior_STEMI"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Inferior_STEMI"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Lateral_STEMI"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#STEMI"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Septal_STEMI"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Severe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#is_type_of_MI -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#is_type_of_MI">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Absent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Absent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#History_of_MI"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Present"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Acute_MI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Acute_MI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#MI"/>
+        <rdfs:comment>has properties of STEMI with very sudden and acute onset and has raised Serum Troponin and CPK- MB.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Anterior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Anterior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Leads"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Anterior_STEMI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Anterior_STEMI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#MI"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ST_changes_in_Anterior"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#V3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ST_changes_in_Anterior"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#V4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ST_changes_in_Anterior"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Inverted"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Present"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Raised"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Severe"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#V3"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#V4"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>has properties of STEMI and it effects anterior part of Heart . Changes in ECG is seen in V3,V4 region with severe pain in chest and raised Serum Troponin and CPK- MB.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Biphasic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Biphasic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#T"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Chest_Pain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Chest_Pain">
+        <rdfs:comment>presence or absense of chest pain is crucial to diagnose MI.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Depressed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Depressed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ST"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_ST_depression"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#NSTEMI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ECG -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ECG">
+        <rdfs:comment>ECG= electrocardiogram.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Elevated -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Elevated">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ST"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_ST_elevation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#STEMI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Flattaned -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Flattaned">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#T"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#History_of_MI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#History_of_MI">
+        <rdfs:comment>Previous history of Myocardial Infraction present or not  is very important factor in diagnosis of Myocardial infraction.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Inferior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Inferior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Leads"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Inferior_STEMI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Inferior_STEMI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#MI"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ST_changes_in_Inferior"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Inverted"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Present"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Raised"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Severe"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#aVF"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#2"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#3"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>has properties of STEMI and it effects inferior part of Heart . Changes in ECG is seen in  Lead 2,3 and AvF region with severe pain in chest and raised Serum Troponin and CPK- MB.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Infracted -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Infracted">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Q"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Inverted -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Inverted">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#T"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_inverted_T_wave"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#STEMI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Lateral -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Lateral">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Leads"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Lateral_STEMI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Lateral_STEMI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#MI"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ST_changes_in_lateral"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Inverted"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Present"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Raised"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Severe"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#V5"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#V6"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#1"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#2"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>has properties of STEMI and it effects Lateral part of Heart . Changes in ECG is seen in  Lead 1, 2, V5, V6 region with severe pain in chest and raised Serum Troponin and CPK- MB.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Leads -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Leads">
+        <rdfs:comment>these are the electrodes which are used to measure electrocardiogram of a patient.
+They are placed on various loactions in body to collect electrical signals from Heart.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#MI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#MI">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#is_type_of_MI"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Acute_MI"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Anterior_STEMI"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Inferior_STEMI"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Lateral_STEMI"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#NSTEMI"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#STEMI"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Septal_STEMI"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Unstable-Angina"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:comment>Myocardial infraction (MI) is also called heart attack.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Mild -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Mild">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Chest_Pain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Moderate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Moderate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Chest_Pain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#NSTEMI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#NSTEMI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#MI"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_ST_depression"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Depressed"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#New_patient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#New_patient">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_ST_depression"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Depressed"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:comment>New patient  has came with MI symptoms and in ECG, we found ST depression , Inverted T wave.Thus the patient has characteristic of NSTEMI and  was diagnosed as unstable Angina. And, it is placed under Unstable Angina by the Reasoner.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#New_patient_2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#New_patient_2">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ST_changes_in_Anterior"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Anterior_STEMI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_effect_on_V3"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#V3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>New_patient comes with symptoms of MI and his ECG shows ST segment changes in Anterior leads . Thus, diagnosis is  Anterior STEMI.</rdfs:comment>
+        <rdfs:comment>According to the condition described , that there are ECG changes in V3 and ST elevation. Reasoner has placed New patient under MI&gt; Anterior STEMI.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Non_Infracted -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Non_Infracted">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Q"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Normal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Normal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ST"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Not_Raised -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Not_Raised">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#S.Troponin_and_CPK-MB"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Raised"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Post_MI_damage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Post_MI_damage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#MI"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_normal_ST"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Normal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>it is a condition , where there is post myocardial muscle damage</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Present -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Present">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#History_of_MI"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#STEMI"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_symptoms_severe"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Severe"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Q -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Q">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ECG"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ST"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#T"/>
+        <rdfs:comment>Q wave of ECG</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Raised -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Raised">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#S.Troponin_and_CPK-MB"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_raised_Level"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#STEMI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#S.Troponin_and_CPK-MB -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#S.Troponin_and_CPK-MB">
+        <rdfs:comment>These are the blood investigations which are hallmark of myocardial infraction.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ST -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ST">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ECG"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#T"/>
+        <rdfs:comment>ST segment of ECG</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#STEMI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#STEMI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#MI"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_ST_elevation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Elevated"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_symptoms_severe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Severe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Septal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Septal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Leads"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Septal_STEMI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Septal_STEMI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#MI"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ST_changes_in_Septal"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Inverted"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Present"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Raised"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Severe"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#V1"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#V2"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>has properties of STEMI and it effects Septal  part of Heart . Changes in ECG is seen in  V1, V2 region with severe pain in chest and raised Serum Troponin and CPK- MB.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Severe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Severe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Chest_Pain"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_symptoms_severe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Acute_MI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_symptoms_severe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Anterior_STEMI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_symptoms_severe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Inferior_STEMI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_symptoms_severe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Lateral_STEMI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_symptoms_severe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#STEMI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_symptoms_severe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Septal_STEMI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#T -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#T">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ECG"/>
+        <rdfs:comment>T wave of ECG</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Tall -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Tall">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#T"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Unchanged -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Unchanged">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#T"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Unstable-Angina -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Unstable-Angina">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#MI"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#has_ST_depression"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Depressed"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Inverted"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Raised"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>it has the property of NSTEMI. It has moderate chest pain, and has elevated S.troponin and CPK-MB. The only thing that differes it from STEMI is it has Depressed ST segment. It also has Inverted T wave.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#V1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#V1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Septal"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ST_changes_in_Septal"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Septal_STEMI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#V2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#V2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Septal"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ST_changes_in_Septal"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Septal_STEMI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#V3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#V3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Anterior"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ST_changes_in_Anterior"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Anterior_STEMI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#V4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#V4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Anterior"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ST_changes_in_Anterior"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Anterior_STEMI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#V5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#V5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Lateral"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ST_changes_in_lateral"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Lateral_STEMI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#V6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#V6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Lateral"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ST_changes_in_lateral"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Lateral_STEMI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#aVF -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#aVF">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Inferior"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ST_changes_in_Inferior"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Inferior_STEMI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Lateral"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ST_changes_in_lateral"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Lateral_STEMI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Inferior"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ST_changes_in_Inferior"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Inferior_STEMI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#2.1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#2.1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Lateral"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ST_changes_in_lateral"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Lateral_STEMI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Inferior"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#ST_changes_in_Inferior"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Inferior_STEMI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Anterior"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Inferior"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Lateral"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Septal"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Biphasic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Flattaned"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Inverted"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Tall"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Unchanged"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Depressed"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Elevated"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Normal"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Mild"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Moderate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/c/ontologies/2024/5/Myocardial_Infraction#Severe"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
